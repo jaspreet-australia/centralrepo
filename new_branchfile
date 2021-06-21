@@ -1,0 +1,9 @@
+$Question = "do you love me"
+if ($Jaspreet -eq $Question){
+	Write-host "Waiting for your answer Darling"
+}
+else{
+
+	write-host "I got my answer"
+
+}
