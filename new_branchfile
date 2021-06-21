@@ -1,6 +1,8 @@
 $Question = "do you love me"
-if ($Jaspreet -eq $Question){
+if ($Jaspreet -neq $Question){
 	Write-host "Waiting for your answer Darling"
+
+	Write-host "If you still have this question, then my answer is 'Yes I love you ' - Your beloved wife - Yamini"
 }
 else{
 
